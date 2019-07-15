@@ -10,4 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.values.flattern ["milk","carrots","broccoli","cucumbers","chicken","steak","salmon","rice","pasta"]
+  groceries.values.flattern.min 
 end
